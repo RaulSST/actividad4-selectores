@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(imagenes/fondo.png); /* Tu imagen de fondo */
+    background-size: cover; /* Asegúrate de que la imagen cubra todo el espacio */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Esto centra la imagen en la página */
+    background-attachment: fixed; 
+    padding: 20px;  /* relleno: 20 píxeles */
+}
+
+header h1 {
+    color:#f44336;
+    text-align: center;
+    border: 4px dashed #f44336; /* borde: líneas separadas de 4 píxeles de color #f44336 */
+    background-color: white;
+    padding: 5px;
+}
+
+nav ul {
+    list-style-type: none;  /* tipo del estilo de la lista: ninguno */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;  /* display: bloque en línea */
+    margin: 15px;
+    padding: 10px;
+    background-color: #ff9800;  /* color de fondo: #ff9800 */
+    color: white;
+    border: 2px solid;
+    border-color: #f44336; 
+}
+
+article {
+    text-align: right;
+}
+
+.par {
+    background-color: #ffc107;
+    padding: 5px;
+    color:white;
+}
+
+.impar {
+    text-align: left;
+    background-color: #f44336;
+    padding: 5px;
+    color:white;
+}
+
+p {
+    font-size: 20px; /* tamaño de fuente: 20 píxeles */
+    font-weight: bold; /* grosor de fuente: negrita  */
+}
+
+aside ul {
+    list-style-type: square;  /* tipo del estilo de la lista: cuadrado (square) */
+    font-style: italic; /* estilo de fuente: cursiva */
+}
+
+.li-blue {
+    font-size: 24px;
+    color: blue;
+}
+
+.li-red {
+    font-size: 20px;
+    color: red;
+}
+
+.li-green {
+    font-size: 20px;
+    color:green;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 20px;
+    text-decoration: overline;
+}
+
+.izquierda {
+    text-align: left;
+}
